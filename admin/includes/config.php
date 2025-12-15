@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','library-management-system9-wasmer.com');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','library');
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASS");
+$db   = getenv("DB_NAME");
 // Establish database connection.
 try
 {
