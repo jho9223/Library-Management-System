@@ -1,6 +1,6 @@
 <?php 
 // DB credentials.
-define('DB_HOST','https://ibrahimlibrarysystem.netlify.app/');
+define('DB_HOST','ibrahimlibrarysystem.netlify.app');
 define('DB_USER','root');
 define('DB_PASS','');
 define('DB_NAME','library');
