@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-$host = getenv("DB_HOST");
-$user = getenv("DB_USER");
-$pass = getenv("DB_PASS");
-$db   = getenv("DB_NAME");
+define('DB_HOST','localhost');
+define('DB_USER','root');
+define('DB_PASS','');
+define('DB_NAME','library');
 // Establish database connection.
 try
 {
