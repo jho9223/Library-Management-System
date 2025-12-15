@@ -1,6 +1,6 @@
 <?php 
 // DB credentials.
-define('DB_HOST','https://library-management-system-a3ws.onrender.com');
+define('DB_HOST','library-management-system-a3ws.onrender.com');
 define('DB_USER','root');
 define('DB_PASS','');
 define('DB_NAME','library');
