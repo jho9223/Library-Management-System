@@ -1,5 +1,5 @@
 <?php 
-define('DB_HOST','ibrahimlibrarysystem.netlify.app');
+define('DB_HOST','https://library-management-system-a3ws.onrender.com');
 define('DB_USER','root');
 define('DB_PASS','');
 define('DB_NAME','library');
